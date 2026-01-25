@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 76,
+        "title": "Before Sunrise",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
+        "genres": [
+          "Drama",
+          "Romance"
+        ]
+      }
+    ]
+  }
+]

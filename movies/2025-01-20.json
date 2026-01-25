@@ -1,0 +1,14 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 10997,
+        "title": "Farewell My Concubine",
+        "poster_path": "https://image.tmdb.org/t/p/w500/iJ99VEPZ8aZTGm18DN6RfZCxYwk.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  }
+]

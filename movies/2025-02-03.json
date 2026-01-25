@@ -1,0 +1,14 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 499,
+        "title": "Cl\u00e9o from 5 to 7",
+        "poster_path": "https://image.tmdb.org/t/p/w500/oelBStY4xpguaplRv15P3Za7Xsr.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  }
+]

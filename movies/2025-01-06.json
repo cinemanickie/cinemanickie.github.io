@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 9504,
+        "title": "Glengarry Glen Ross",
+        "poster_path": "https://image.tmdb.org/t/p/w500/nGZCeCfNseq1ee3cJLBp0rH0djT.jpg",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ]
+      }
+    ]
+  }
+]

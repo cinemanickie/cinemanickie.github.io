@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 80,
+        "title": "Before Sunset",
+        "poster_path": "https://image.tmdb.org/t/p/w500/gycdE1ARByGQcK4fYR2mgpU6OO.jpg",
+        "genres": [
+          "Drama",
+          "Romance"
+        ]
+      }
+    ]
+  }
+]

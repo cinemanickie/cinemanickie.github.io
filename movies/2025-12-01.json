@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 592831,
+        "title": "Megalopolis",
+        "poster_path": "https://image.tmdb.org/t/p/w500/8Sok3HNA3r1GHnK2lCytHyBz1A.jpg",
+        "genres": [
+          "Science Fiction",
+          "Drama",
+          "Fantasy"
+        ]
+      }
+    ]
+  }
+]

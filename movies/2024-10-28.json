@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 694,
+        "title": "The Shining",
+        "poster_path": "https://image.tmdb.org/t/p/w500/uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ]
+      }
+    ]
+  }
+]

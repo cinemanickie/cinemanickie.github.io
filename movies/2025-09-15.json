@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 603,
+        "title": "The Matrix",
+        "poster_path": "https://image.tmdb.org/t/p/w500/p96dm7sCMn4VYAStA6siNz30G1r.jpg",
+        "genres": [
+          "Action",
+          "Science Fiction"
+        ]
+      }
+    ]
+  }
+]

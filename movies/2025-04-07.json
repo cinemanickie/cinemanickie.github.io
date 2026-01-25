@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 132344,
+        "title": "Before Midnight",
+        "poster_path": "https://image.tmdb.org/t/p/w500/qbGKJmNUroDz75kh5Oafoall89e.jpg",
+        "genres": [
+          "Romance",
+          "Drama"
+        ]
+      }
+    ]
+  }
+]

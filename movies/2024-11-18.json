@@ -1,0 +1,14 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 785084,
+        "title": "The Whale",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  }
+]

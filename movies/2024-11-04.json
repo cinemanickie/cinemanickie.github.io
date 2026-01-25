@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 258480,
+        "title": "Carol",
+        "poster_path": "https://image.tmdb.org/t/p/w500/cJeled7EyPdur6TnCA5GYg0UVna.jpg",
+        "genres": [
+          "Romance",
+          "Drama"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 8051,
+        "title": "Punch-Drunk Love",
+        "poster_path": "https://image.tmdb.org/t/p/w500/htYp4yqFu4rzBEIa6j9jP8miDm3.jpg",
+        "genres": [
+          "Romance",
+          "Drama",
+          "Comedy"
+        ]
+      }
+    ]
+  }
+]
