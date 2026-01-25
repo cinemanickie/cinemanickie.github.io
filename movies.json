@@ -1,5 +1,35 @@
 [
   {
+    "date": "2024-03-18",
+    "movies": [
+      {
+        "tmdb_id": 915935,
+        "title": "Anatomy of a Fall",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+        "genres": [
+          "Thriller",
+          "Mystery",
+          "Crime"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-04-08",
+    "movies": [
+      {
+        "tmdb_id": 6977,
+        "title": "No Country for Old Men",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+        "genres": [
+          "Crime",
+          "Thriller",
+          "Western"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2024-04-15",
     "movies": [
       {
