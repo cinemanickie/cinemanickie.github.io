@@ -1,5 +1,197 @@
 [
   {
+    "date": "2024-04-15",
+    "movies": [
+      {
+        "tmdb_id": 670,
+        "title": "Oldboy",
+        "poster_path": "https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+        "genres": [
+          "Drama",
+          "Thriller",
+          "Mystery",
+          "Action"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-04-22",
+    "movies": [
+      {
+        "tmdb_id": 598,
+        "title": "City of God",
+        "poster_path": "https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+        "genres": [
+          "Drama",
+          "Crime"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-05-13",
+    "movies": [
+      {
+        "tmdb_id": 77,
+        "title": "Memento",
+        "poster_path": "https://image.tmdb.org/t/p/w500/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-05-27",
+    "movies": [
+      {
+        "tmdb_id": 889699,
+        "title": "Holy Spider",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6ObJ4x7m1F5QRY06WzOxNJQHwGb.jpg",
+        "genres": [
+          "Thriller",
+          "Drama",
+          "Crime",
+          "Horror"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-07-15",
+    "movies": [
+      {
+        "tmdb_id": 786892,
+        "title": "Furiosa: A Mad Max Saga",
+        "poster_path": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+        "genres": [
+          "Action",
+          "Science Fiction",
+          "Adventure"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-07-29",
+    "movies": [
+      {
+        "tmdb_id": 49046,
+        "title": "All Quiet on the Western Front",
+        "poster_path": "https://image.tmdb.org/t/p/w500/2IRjbi9cADuDMKmHdLK7LaqQDKA.jpg",
+        "genres": [
+          "War",
+          "History",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-08-05",
+    "movies": [
+      {
+        "tmdb_id": 49517,
+        "title": "Tinker Tailor Soldier Spy",
+        "poster_path": "https://image.tmdb.org/t/p/w500/e0dZ7TapGY9HtJ9xk1TUHPEOccl.jpg",
+        "genres": [
+          "Drama",
+          "Thriller",
+          "Mystery"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-08-19",
+    "movies": [
+      {
+        "tmdb_id": 641,
+        "title": "Requiem for a Dream",
+        "poster_path": "https://image.tmdb.org/t/p/w500/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg",
+        "genres": [
+          "Crime",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-08-26",
+    "movies": [
+      {
+        "tmdb_id": 152578,
+        "title": "The Hunt",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kZiOV6dd4nN479voV83fSYMhmwC.jpg",
+        "genres": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-09-02",
+    "movies": [
+      {
+        "tmdb_id": 128,
+        "title": "Princess Mononoke",
+        "poster_path": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Animation"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-10-07",
+    "movies": [
+      {
+        "tmdb_id": 8329,
+        "title": "[REC]",
+        "poster_path": "https://image.tmdb.org/t/p/w500/hgyJR4sgMsee6xMFM3xYiG6cDCh.jpg",
+        "genres": [
+          "Horror",
+          "Mystery"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-10-14",
+    "movies": [
+      {
+        "tmdb_id": 571,
+        "title": "The Birds",
+        "poster_path": "https://image.tmdb.org/t/p/w500/eClg8QPg8mwB6INIC4pyR5pAbDr.jpg",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-10-21",
+    "movies": [
+      {
+        "tmdb_id": 1417,
+        "title": "Pan's Labyrinth",
+        "poster_path": "https://image.tmdb.org/t/p/w500/z7xXihu5wHuSMWymq5VAulPVuvg.jpg",
+        "genres": [
+          "Fantasy",
+          "Drama",
+          "War"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2024-10-28",
     "movies": [
       {

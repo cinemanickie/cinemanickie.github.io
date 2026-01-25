@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 786892,
+        "title": "Furiosa: A Mad Max Saga",
+        "poster_path": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+        "genres": [
+          "Action",
+          "Science Fiction",
+          "Adventure"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 152578,
+        "title": "The Hunt",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kZiOV6dd4nN479voV83fSYMhmwC.jpg",
+        "genres": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 915935,
+        "title": "Anatomy of a Fall",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+        "genres": [
+          "Thriller",
+          "Mystery",
+          "Crime"
+        ]
+      }
+    ]
+  }
+]

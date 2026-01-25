@@ -1,0 +1,17 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 670,
+        "title": "Oldboy",
+        "poster_path": "https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+        "genres": [
+          "Drama",
+          "Thriller",
+          "Mystery",
+          "Action"
+        ]
+      }
+    ]
+  }
+]

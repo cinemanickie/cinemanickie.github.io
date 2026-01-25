@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 128,
+        "title": "Princess Mononoke",
+        "poster_path": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Animation"
+        ]
+      }
+    ]
+  }
+]
