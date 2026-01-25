@@ -8,7 +8,7 @@ fetch('movies.json')
 	const showMoreBtn = document.getElementById('show-more-btn');
 
 	let showHistoric = false;
-	const STEP = 5;
+	const STEP = 25;
 	let visibleCount = STEP;
 
 	function formatDate(dateStr) {
