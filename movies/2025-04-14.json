@@ -1,0 +1,17 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 72190,
+        "title": "World War Z",
+        "poster_path": "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+        "genres": [
+          "Action",
+          "Horror",
+          "Science Fiction",
+          "Thriller"
+        ]
+      }
+    ]
+  }
+]

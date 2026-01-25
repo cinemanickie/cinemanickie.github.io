@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 792307,
+        "title": "Poor Things",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+        "genres": [
+          "Science Fiction",
+          "Romance",
+          "Comedy"
+        ]
+      }
+    ]
+  }
+]

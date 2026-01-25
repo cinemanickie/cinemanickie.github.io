@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 805,
+        "title": "Rosemary's Baby",
+        "poster_path": "https://image.tmdb.org/t/p/w500/uYgvlHceRFjAFbsNeMInYcLZLUb.jpg",
+        "genres": [
+          "Drama",
+          "Horror",
+          "Thriller"
+        ]
+      }
+    ]
+  }
+]

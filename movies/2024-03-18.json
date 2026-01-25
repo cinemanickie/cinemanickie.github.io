@@ -2,13 +2,11 @@
   {
     "movies": [
       {
-        "tmdb_id": 915935,
-        "title": "Anatomy of a Fall",
-        "poster_path": "https://image.tmdb.org/t/p/w500/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+        "tmdb_id": 785084,
+        "title": "The Whale",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
         "genres": [
-          "Thriller",
-          "Mystery",
-          "Crime"
+          "Drama"
         ]
       }
     ]

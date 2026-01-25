@@ -2,15 +2,12 @@
   {
     "movies": [
       {
-        "tmdb_id": 1184918,
-        "title": "The Wild Robot",
-        "poster_path": "https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
+        "tmdb_id": 76,
+        "title": "Before Sunrise",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
         "genres": [
-          "Animation",
-          "Science Fiction",
-          "Family",
-          "Adventure",
-          "Drama"
+          "Drama",
+          "Romance"
         ]
       }
     ]

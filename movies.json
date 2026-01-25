@@ -1,36 +1,49 @@
 [
   {
-    "date": "2024-03-18",
+    "date": "2023-12-18",
     "movies": [
       {
-        "tmdb_id": 915935,
-        "title": "Anatomy of a Fall",
-        "poster_path": "https://image.tmdb.org/t/p/w500/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+        "tmdb_id": 792307,
+        "title": "Poor Things",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
         "genres": [
-          "Thriller",
+          "Science Fiction",
+          "Romance",
+          "Comedy"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-01-01",
+    "movies": [
+      {
+        "tmdb_id": 619730,
+        "title": "Don't Worry Darling",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jOqxKIOC92BVyinYO1Fm73XY7Tc.jpg",
+        "genres": [
+          "Science Fiction",
           "Mystery",
-          "Crime"
+          "Thriller"
         ]
       }
     ]
   },
   {
-    "date": "2024-04-08",
+    "date": "2024-01-08",
     "movies": [
       {
-        "tmdb_id": 6977,
-        "title": "No Country for Old Men",
-        "poster_path": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+        "tmdb_id": 389,
+        "title": "12 Angry Men",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg",
         "genres": [
-          "Crime",
-          "Thriller",
-          "Western"
+          "Drama"
         ]
       }
     ]
   },
   {
-    "date": "2024-04-15",
+    "date": "2024-01-15",
     "movies": [
       {
         "tmdb_id": 670,
@@ -46,7 +59,77 @@
     ]
   },
   {
-    "date": "2024-04-22",
+    "date": "2024-01-22",
+    "movies": [
+      {
+        "tmdb_id": 115,
+        "title": "The Big Lebowski",
+        "poster_path": "https://image.tmdb.org/t/p/w500/9mprbw31MGdd66LR0AQKoDMoFRv.jpg",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-01-29",
+    "movies": [
+      {
+        "tmdb_id": 361743,
+        "title": "Top Gun: Maverick",
+        "poster_path": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+        "genres": [
+          "Action",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-02-05",
+    "movies": [
+      {
+        "tmdb_id": 3116,
+        "title": "Midnight Cowboy",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ckklq45UxUkwgHve9xItXqXr06r.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-02-12",
+    "movies": [
+      {
+        "tmdb_id": 2898,
+        "title": "As Good as It Gets",
+        "poster_path": "https://image.tmdb.org/t/p/w500/xXxuJPNUDZ0vjsAXca0O5p3leVB.jpg",
+        "genres": [
+          "Drama",
+          "Comedy",
+          "Romance"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-02-19",
+    "movies": [
+      {
+        "tmdb_id": 87827,
+        "title": "Life of Pi",
+        "poster_path": "https://image.tmdb.org/t/p/w500/iLgRu4hhSr6V1uManX6ukDriiSc.jpg",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-02-26",
     "movies": [
       {
         "tmdb_id": 598,
@@ -60,7 +143,65 @@
     ]
   },
   {
-    "date": "2024-05-13",
+    "date": "2024-03-04",
+    "movies": [
+      {
+        "tmdb_id": 146,
+        "title": "Crouching Tiger, Hidden Dragon",
+        "poster_path": "https://image.tmdb.org/t/p/w500/iNDVBFNz4XyYzM9Lwip6atSTFqf.jpg",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Action",
+          "Romance"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-03-11",
+    "movies": [
+      {
+        "tmdb_id": 70,
+        "title": "Million Dollar Baby",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jcfEqKdWF1zeyvECPqp3mkWLct2.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-03-18",
+    "movies": [
+      {
+        "tmdb_id": 785084,
+        "title": "The Whale",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-03-25",
+    "movies": [
+      {
+        "tmdb_id": 396535,
+        "title": "Train to Busan",
+        "poster_path": "https://image.tmdb.org/t/p/w500/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+        "genres": [
+          "Horror",
+          "Thriller",
+          "Action",
+          "Adventure"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-04-01",
     "movies": [
       {
         "tmdb_id": 77,
@@ -74,7 +215,37 @@
     ]
   },
   {
-    "date": "2024-05-27",
+    "date": "2024-04-08",
+    "movies": [
+      {
+        "tmdb_id": 1422,
+        "title": "The Departed",
+        "poster_path": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+        "genres": [
+          "Drama",
+          "Thriller",
+          "Crime"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-04-15",
+    "movies": [
+      {
+        "tmdb_id": 593643,
+        "title": "The Menu",
+        "poster_path": "https://image.tmdb.org/t/p/w500/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-04-22",
     "movies": [
       {
         "tmdb_id": 889699,
@@ -85,6 +256,79 @@
           "Drama",
           "Crime",
           "Horror"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-04-29",
+    "movies": [
+      {
+        "tmdb_id": 335984,
+        "title": "Blade Runner 2049",
+        "poster_path": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+        "genres": [
+          "Science Fiction",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-05-06",
+    "movies": [
+      {
+        "tmdb_id": 583794,
+        "title": "Law of Tehran",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ujNhy2Vu7S1FHuwePMIYMkIbGTj.jpg",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-05-13",
+    "movies": [
+      {
+        "tmdb_id": 237791,
+        "title": "The Way He Looks",
+        "poster_path": "https://image.tmdb.org/t/p/w500/2BhhlAYwKvONGW7tr16ZhnD0sym.jpg",
+        "genres": [
+          "Drama",
+          "Romance"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-05-20",
+    "movies": [
+      {
+        "tmdb_id": 857,
+        "title": "Saving Private Ryan",
+        "poster_path": "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+        "genres": [
+          "War",
+          "Drama",
+          "History"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-05-27",
+    "movies": [
+      {
+        "tmdb_id": 49046,
+        "title": "All Quiet on the Western Front",
+        "poster_path": "https://image.tmdb.org/t/p/w500/2IRjbi9cADuDMKmHdLK7LaqQDKA.jpg",
+        "genres": [
+          "War",
+          "History",
+          "Drama"
         ]
       }
     ]
@@ -105,7 +349,7 @@
     ]
   },
   {
-    "date": "2024-07-29",
+    "date": "2024-07-22",
     "movies": [
       {
         "tmdb_id": 49046,
@@ -152,13 +396,11 @@
     "date": "2024-08-26",
     "movies": [
       {
-        "tmdb_id": 152578,
+        "tmdb_id": "103663",
         "title": "The Hunt",
-        "poster_path": "https://image.tmdb.org/t/p/w500/kZiOV6dd4nN479voV83fSYMhmwC.jpg",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jkixsXzRh28q3PCqFoWcf7unghT.jpg",
         "genres": [
-          "Action",
-          "Horror",
-          "Thriller"
+          "Drama"
         ]
       }
     ]
@@ -174,6 +416,62 @@
           "Adventure",
           "Fantasy",
           "Animation"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-09-09",
+    "movies": [
+      {
+        "tmdb_id": 25934,
+        "title": "To Sir, with Love",
+        "poster_path": "https://image.tmdb.org/t/p/w500/xMaVwTfgETmPs5yp3lNK5SeWCtB.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-09-16",
+    "movies": [
+      {
+        "tmdb_id": 377,
+        "title": "A Nightmare on Elm Street",
+        "poster_path": "https://image.tmdb.org/t/p/w500/avHGIO93jgCZLf33ec2aahgZJX6.jpg",
+        "genres": [
+          "Horror"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-09-23",
+    "movies": [
+      {
+        "tmdb_id": 805,
+        "title": "Rosemary's Baby",
+        "poster_path": "https://image.tmdb.org/t/p/w500/uYgvlHceRFjAFbsNeMInYcLZLUb.jpg",
+        "genres": [
+          "Drama",
+          "Horror",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-09-30",
+    "movies": [
+      {
+        "tmdb_id": 4935,
+        "title": "Howl's Moving Castle",
+        "poster_path": "https://image.tmdb.org/t/p/w500/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+        "genres": [
+          "Fantasy",
+          "Animation",
+          "Adventure"
         ]
       }
     ]
@@ -250,7 +548,7 @@
     ]
   },
   {
-    "date": "2024-11-11",
+    "date": "2024-11-18",
     "movies": [
       {
         "tmdb_id": 375315,
@@ -259,19 +557,6 @@
         "genres": [
           "Drama",
           "Thriller"
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2024-11-18",
-    "movies": [
-      {
-        "tmdb_id": 785084,
-        "title": "The Whale",
-        "poster_path": "https://image.tmdb.org/t/p/w500/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
-        "genres": [
-          "Drama"
         ]
       }
     ]
@@ -287,6 +572,19 @@
           "Science Fiction",
           "Action",
           "Thriller"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-12-01",
+    "movies": [
+      {
+        "tmdb_id": 37181,
+        "title": "About Elly",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ctLrMQrg3kss2JO7OIr7RVdN5an.jpg",
+        "genres": [
+          "Drama"
         ]
       }
     ]
@@ -405,20 +703,22 @@
     ]
   },
   {
-    "date": "2025-03-10",
+    "date": "2025-02-25",
     "movies": [
       {
-        "tmdb_id": 803700,
-        "title": "The Eight Mountains",
-        "poster_path": "https://image.tmdb.org/t/p/w500/ohD87uTlwOgNuUEYaW82ew9Eds7.jpg",
+        "tmdb_id": 718930,
+        "title": "Bullet Train",
+        "poster_path": "https://image.tmdb.org/t/p/w500/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg",
         "genres": [
-          "Drama"
+          "Action",
+          "Comedy",
+          "Thriller"
         ]
       }
     ]
   },
   {
-    "date": "2025-03-17",
+    "date": "2025-03-03",
     "movies": [
       {
         "tmdb_id": 1184918,
@@ -435,7 +735,20 @@
     ]
   },
   {
-    "date": "2025-03-24",
+    "date": "2025-03-10",
+    "movies": [
+      {
+        "tmdb_id": 803700,
+        "title": "The Eight Mountains",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ohD87uTlwOgNuUEYaW82ew9Eds7.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-03-17",
     "movies": [
       {
         "tmdb_id": 76,
@@ -449,7 +762,7 @@
     ]
   },
   {
-    "date": "2025-03-31",
+    "date": "2025-03-24",
     "movies": [
       {
         "tmdb_id": 80,
@@ -463,7 +776,7 @@
     ]
   },
   {
-    "date": "2025-04-07",
+    "date": "2025-03-31",
     "movies": [
       {
         "tmdb_id": 132344,
@@ -472,6 +785,37 @@
         "genres": [
           "Romance",
           "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-04-07",
+    "movies": [
+      {
+        "tmdb_id": 6977,
+        "title": "No Country for Old Men",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+        "genres": [
+          "Crime",
+          "Thriller",
+          "Western"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-04-14",
+    "movies": [
+      {
+        "tmdb_id": 72190,
+        "title": "World War Z",
+        "poster_path": "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+        "genres": [
+          "Action",
+          "Horror",
+          "Science Fiction",
+          "Thriller"
         ]
       }
     ]
@@ -492,7 +836,49 @@
     ]
   },
   {
-    "date": "2025-09-01",
+    "date": "2025-05-05",
+    "movies": [
+      {
+        "tmdb_id": 13090,
+        "title": "Sunshine Cleaning",
+        "poster_path": "https://image.tmdb.org/t/p/w500/xwtJyfme086wcz9MXpP0i5Hrgxy.jpg",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-06-02",
+    "movies": [
+      {
+        "tmdb_id": 152584,
+        "title": "Blue Is the Warmest Color",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kgUk1wti2cvrptIgUz0VTAtSF6w.jpg",
+        "genres": [
+          "Romance",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-06-16",
+    "movies": [
+      {
+        "tmdb_id": 531428,
+        "title": "Portrait of a Lady on Fire",
+        "poster_path": "https://image.tmdb.org/t/p/w500/2LquGwEhbg3soxSCs9VNyh5VJd9.jpg",
+        "genres": [
+          "Drama",
+          "Romance"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-08-25",
     "movies": [
       {
         "tmdb_id": 911430,
@@ -549,7 +935,22 @@
     ]
   },
   {
-    "date": "2025-10-07",
+    "date": "2025-09-29",
+    "movies": [
+      {
+        "tmdb_id": 7299,
+        "title": "Equilibrium",
+        "poster_path": "https://image.tmdb.org/t/p/w500/yQuovle5Ov6q69XSdTNdH52eANc.jpg",
+        "genres": [
+          "Action",
+          "Science Fiction",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-10-06",
     "movies": [
       {
         "tmdb_id": 502033,
@@ -558,6 +959,34 @@
         "genres": [
           "Drama",
           "Music"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-10-20",
+    "movies": [
+      {
+        "tmdb_id": 1018,
+        "title": "Mulholland Drive",
+        "poster_path": "https://image.tmdb.org/t/p/w500/x7A59t6ySylr1L7aubOQEA480vM.jpg",
+        "genres": [
+          "Thriller",
+          "Drama",
+          "Mystery"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-10-27",
+    "movies": [
+      {
+        "tmdb_id": 5176,
+        "title": "3:10 to Yuma",
+        "poster_path": "https://image.tmdb.org/t/p/w500/voMB69AsLnPNmtfbrBl0lbeFKDH.jpg",
+        "genres": [
+          "Western"
         ]
       }
     ]

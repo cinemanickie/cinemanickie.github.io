@@ -1,0 +1,14 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 70,
+        "title": "Million Dollar Baby",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jcfEqKdWF1zeyvECPqp3mkWLct2.jpg",
+        "genres": [
+          "Drama"
+        ]
+      }
+    ]
+  }
+]

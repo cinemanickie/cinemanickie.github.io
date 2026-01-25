@@ -2,13 +2,11 @@
   {
     "movies": [
       {
-        "tmdb_id": 152578,
+        "tmdb_id": "103663",
         "title": "The Hunt",
-        "poster_path": "https://image.tmdb.org/t/p/w500/kZiOV6dd4nN479voV83fSYMhmwC.jpg",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jkixsXzRh28q3PCqFoWcf7unghT.jpg",
         "genres": [
-          "Action",
-          "Horror",
-          "Thriller"
+          "Drama"
         ]
       }
     ]

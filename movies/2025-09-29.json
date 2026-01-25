@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 7299,
+        "title": "Equilibrium",
+        "poster_path": "https://image.tmdb.org/t/p/w500/yQuovle5Ov6q69XSdTNdH52eANc.jpg",
+        "genres": [
+          "Action",
+          "Science Fiction",
+          "Thriller"
+        ]
+      }
+    ]
+  }
+]

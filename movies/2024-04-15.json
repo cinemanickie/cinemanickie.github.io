@@ -1,17 +1,16 @@
 [
   {
-    "movies": [
-      {
-        "tmdb_id": 670,
-        "title": "Oldboy",
-        "poster_path": "https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+	"movies": [
+	  {
+        "tmdb_id": 593643,
+        "title": "The Menu",
+        "poster_path": "https://image.tmdb.org/t/p/w500/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg",
         "genres": [
-          "Drama",
-          "Thriller",
-          "Mystery",
-          "Action"
+          "Comedy",
+          "Horror",
+          "Thriller"
         ]
-      }
-    ]
+	  }
+	]
   }
 ]

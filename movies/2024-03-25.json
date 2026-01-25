@@ -1,0 +1,17 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 396535,
+        "title": "Train to Busan",
+        "poster_path": "https://image.tmdb.org/t/p/w500/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+        "genres": [
+          "Horror",
+          "Thriller",
+          "Action",
+          "Adventure"
+        ]
+      }
+    ]
+  }
+]

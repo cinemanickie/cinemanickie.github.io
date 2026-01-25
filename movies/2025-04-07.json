@@ -2,12 +2,13 @@
   {
     "movies": [
       {
-        "tmdb_id": 132344,
-        "title": "Before Midnight",
-        "poster_path": "https://image.tmdb.org/t/p/w500/qbGKJmNUroDz75kh5Oafoall89e.jpg",
+        "tmdb_id": 6977,
+        "title": "No Country for Old Men",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
         "genres": [
-          "Romance",
-          "Drama"
+          "Crime",
+          "Thriller",
+          "Western"
         ]
       }
     ]

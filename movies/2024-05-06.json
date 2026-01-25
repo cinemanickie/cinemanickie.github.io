@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 583794,
+        "title": "Law of Tehran",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ujNhy2Vu7S1FHuwePMIYMkIbGTj.jpg",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ]
+      }
+    ]
+  }
+]

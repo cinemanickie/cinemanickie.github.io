@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 2898,
+        "title": "As Good as It Gets",
+        "poster_path": "https://image.tmdb.org/t/p/w500/xXxuJPNUDZ0vjsAXca0O5p3leVB.jpg",
+        "genres": [
+          "Drama",
+          "Comedy",
+          "Romance"
+        ]
+      }
+    ]
+  }
+]

@@ -2,14 +2,13 @@
   {
     "movies": [
       {
-        "tmdb_id": 889699,
-        "title": "Holy Spider",
-        "poster_path": "https://image.tmdb.org/t/p/w500/6ObJ4x7m1F5QRY06WzOxNJQHwGb.jpg",
+        "tmdb_id": 49046,
+        "title": "All Quiet on the Western Front",
+        "poster_path": "https://image.tmdb.org/t/p/w500/2IRjbi9cADuDMKmHdLK7LaqQDKA.jpg",
         "genres": [
-          "Thriller",
-          "Drama",
-          "Crime",
-          "Horror"
+          "War",
+          "History",
+          "Drama"
         ]
       }
     ]

@@ -1,0 +1,14 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 377,
+        "title": "A Nightmare on Elm Street",
+        "poster_path": "https://image.tmdb.org/t/p/w500/avHGIO93jgCZLf33ec2aahgZJX6.jpg",
+        "genres": [
+          "Horror"
+        ]
+      }
+    ]
+  }
+]

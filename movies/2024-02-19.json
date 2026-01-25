@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 87827,
+        "title": "Life of Pi",
+        "poster_path": "https://image.tmdb.org/t/p/w500/iLgRu4hhSr6V1uManX6ukDriiSc.jpg",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ]
+      }
+    ]
+  }
+]

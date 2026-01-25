@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 619730,
+        "title": "Don't Worry Darling",
+        "poster_path": "https://image.tmdb.org/t/p/w500/jOqxKIOC92BVyinYO1Fm73XY7Tc.jpg",
+        "genres": [
+          "Science Fiction",
+          "Mystery",
+          "Thriller"
+        ]
+      }
+    ]
+  }
+]

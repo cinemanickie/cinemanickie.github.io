@@ -1,0 +1,17 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 146,
+        "title": "Crouching Tiger, Hidden Dragon",
+        "poster_path": "https://image.tmdb.org/t/p/w500/iNDVBFNz4XyYzM9Lwip6atSTFqf.jpg",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Action",
+          "Romance"
+        ]
+      }
+    ]
+  }
+]

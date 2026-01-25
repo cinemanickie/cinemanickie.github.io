@@ -1,0 +1,14 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 5176,
+        "title": "3:10 to Yuma",
+        "poster_path": "https://image.tmdb.org/t/p/w500/voMB69AsLnPNmtfbrBl0lbeFKDH.jpg",
+        "genres": [
+          "Western"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 115,
+        "title": "The Big Lebowski",
+        "poster_path": "https://image.tmdb.org/t/p/w500/9mprbw31MGdd66LR0AQKoDMoFRv.jpg",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ]
+      }
+    ]
+  }
+]

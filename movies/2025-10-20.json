@@ -1,0 +1,16 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 1018,
+        "title": "Mulholland Drive",
+        "poster_path": "https://image.tmdb.org/t/p/w500/x7A59t6ySylr1L7aubOQEA480vM.jpg",
+        "genres": [
+          "Thriller",
+          "Drama",
+          "Mystery"
+        ]
+      }
+    ]
+  }
+]
