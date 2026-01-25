@@ -83,3 +83,23 @@ h1, p {
   /* border: 2px solid #066C6E; */
 }
 
+.controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1em 0;
+}
+
+.credit {
+	display: flex;
+	align-items: center;
+	gap: 0.4em;
+	font-size: 1em;
+	opacity: 0.85;
+}
+
+.logo {
+	width: 28px;
+	height: auto;
+	image-rendering: pixelated;
+}
