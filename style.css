@@ -20,7 +20,6 @@ h1, p {
     margin: 1em auto;
 }
 
-/* Date rectangle */
 .date-block {
     background-color: #066C6E;
     border: solid #104041;
@@ -30,10 +29,9 @@ h1, p {
     border-radius: 5px;
 }
 
-/* Movie rectangle */
 .movie {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     background-color: #104041;
     border: solid #066C6E;
     box-shadow: 5px 5px 0 0 #066C6E;
