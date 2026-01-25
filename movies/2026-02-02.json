@@ -1,0 +1,48 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": "775",
+        "title": "A Trip to the Moon",
+        "poster_path": "https://image.tmdb.org/t/p/w500/9o0v5LLFk51nyTBHZSre6OB37n2.jpg",
+        "genres": [
+          "Adventure",
+          "Science Fiction",
+          "Fantasy"
+        ],
+        "rating": 7.899
+      },
+      {
+        "tmdb_id": "15265",
+        "title": "The Red Balloon",
+        "poster_path": "https://image.tmdb.org/t/p/w500/3XrEggEOEnKGi8hTOau44vcvbmV.jpg",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Family",
+          "Fantasy"
+        ],
+        "rating": 7.7
+      },
+      {
+        "tmdb_id": "965171",
+        "title": "Ice Merchants",
+        "poster_path": "https://image.tmdb.org/t/p/w500/uDoiGF4KqyNglxaIJlRWdFQ4WJT.jpg",
+        "genres": [
+          "Animation",
+          "Drama"
+        ],
+        "rating": 7.704
+      },
+      {
+        "tmdb_id": 36079,
+        "title": "Tale of Tales",
+        "poster_path": "https://image.tmdb.org/t/p/w500/7gWBy9z4JrkDPSfG5VbjWbbgvxk.jpg",
+        "genres": [
+          "Animation"
+        ],
+        "rating": 7.3
+      }
+    ]
+  }
+]

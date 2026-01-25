@@ -1,0 +1,59 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": 49565,
+        "title": "The Man Who Planted Trees",
+        "poster_path": "https://image.tmdb.org/t/p/w500/tEzdXghDipM4b8Qs1mzt4mvXT6l.jpg",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Fantasy"
+        ],
+        "rating": 7.997
+      },
+      {
+        "tmdb_id": "303867",
+        "title": "World of Tomorrow",
+        "poster_path": "https://image.tmdb.org/t/p/w500/5s7DSOek7Bk2CvcG1zX01bJzJ0x.jpg",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Science Fiction"
+        ],
+        "rating": 7.829
+      },
+      {
+        "tmdb_id": "471495",
+        "title": "World of Tomorrow Episode Two: The Burden of Other People's Thoughts",
+        "poster_path": "https://image.tmdb.org/t/p/w500/8nSucrEs2xZU1bXxhtMfh4imYOE.jpg",
+        "genres": [
+          "Science Fiction",
+          "Animation",
+          "Drama"
+        ],
+        "rating": 8.0
+      },
+      {
+        "tmdb_id": "100592",
+        "title": "The Hand",
+        "poster_path": "https://image.tmdb.org/t/p/w500/83YdjKErufydzHqvJgyY5D7EUme.jpg",
+        "genres": [
+          "Animation",
+          "Horror"
+        ],
+        "rating": 7.4
+      },
+	  {
+		"tmdb_id": "N/A",
+		"title": "Love, Death & Robots: Zima Blue",
+		"poster_path": "https://m.media-amazon.com/images/M/MV5BNTAwOTcyYzQtODliYS00Yjc3LWE4MzMtYmI4MjAwNTU4ZGFlXkEyXkFqcGc@._V1_.jpg",
+		"genres": [
+		  "Animation",
+		  "Science Fiction",
+		  "Fantasy"
+		]
+	  }
+    ]
+  }
+]

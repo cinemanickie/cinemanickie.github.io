@@ -1,0 +1,229 @@
+[
+  {
+    "date": "2026-01-05",
+    "movies": [
+      {
+        "tmdb_id": "1054867",
+        "title": "One Battle After Another",
+        "poster_path": "https://image.tmdb.org/t/p/w500/m1jFoahEbeQXtx4zArT2FKdbNIj.jpg",
+        "genres": [
+          "Thriller",
+          "Crime",
+          "Action"
+        ],
+        "rating": 7.427
+      }
+    ]
+  },
+  {
+    "date": "2026-01-12",
+    "movies": [
+      {
+        "tmdb_id": "1456349",
+        "title": "It Was Just an Accident",
+        "poster_path": "https://image.tmdb.org/t/p/w500/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
+        "genres": [
+          "Drama",
+          "Thriller",
+          "Crime"
+        ],
+        "rating": 7.2
+      }
+    ]
+  },
+  {
+    "date": "2026-01-19",
+    "movies": [
+      {
+        "tmdb_id": "1124566",
+        "title": "Sentimental Value",
+        "poster_path": "https://image.tmdb.org/t/p/w500/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
+        "genres": [
+          "Drama"
+        ],
+        "rating": 7.589
+      }
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "movies": [
+      {
+        "tmdb_id": "1160360",
+        "title": "If I Had Legs I'd Kick You",
+        "poster_path": "https://image.tmdb.org/t/p/w500/va0TQ9WprMXRqQAzY56vyqY0Yd5.jpg",
+        "genres": [
+          "Drama"
+        ],
+        "rating": 6.5
+      }
+    ]
+  },
+  {
+    "date": "2026-02-02",
+    "movies": [
+      {
+        "tmdb_id": "775",
+        "title": "A Trip to the Moon",
+        "poster_path": "https://image.tmdb.org/t/p/w500/9o0v5LLFk51nyTBHZSre6OB37n2.jpg",
+        "genres": [
+          "Adventure",
+          "Science Fiction",
+          "Fantasy"
+        ],
+        "rating": 7.899
+      },
+      {
+        "tmdb_id": "15265",
+        "title": "The Red Balloon",
+        "poster_path": "https://image.tmdb.org/t/p/w500/3XrEggEOEnKGi8hTOau44vcvbmV.jpg",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Family",
+          "Fantasy"
+        ],
+        "rating": 7.7
+      },
+      {
+        "tmdb_id": "965171",
+        "title": "Ice Merchants",
+        "poster_path": "https://image.tmdb.org/t/p/w500/uDoiGF4KqyNglxaIJlRWdFQ4WJT.jpg",
+        "genres": [
+          "Animation",
+          "Drama"
+        ],
+        "rating": 7.704
+      },
+      {
+        "tmdb_id": 36079,
+        "title": "Tale of Tales",
+        "poster_path": "https://image.tmdb.org/t/p/w500/7gWBy9z4JrkDPSfG5VbjWbbgvxk.jpg",
+        "genres": [
+          "Animation"
+        ],
+        "rating": 7.3
+      }
+    ]
+  },
+  {
+    "date": "2026-02-09",
+    "movies": [
+      {
+        "tmdb_id": 49565,
+        "title": "The Man Who Planted Trees",
+        "poster_path": "https://image.tmdb.org/t/p/w500/tEzdXghDipM4b8Qs1mzt4mvXT6l.jpg",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Fantasy"
+        ],
+        "rating": 7.997
+      },
+      {
+        "tmdb_id": "303867",
+        "title": "World of Tomorrow",
+        "poster_path": "https://image.tmdb.org/t/p/w500/5s7DSOek7Bk2CvcG1zX01bJzJ0x.jpg",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Science Fiction"
+        ],
+        "rating": 7.829
+      },
+      {
+        "tmdb_id": "471495",
+        "title": "World of Tomorrow Episode Two: The Burden of Other People's Thoughts",
+        "poster_path": "https://image.tmdb.org/t/p/w500/8nSucrEs2xZU1bXxhtMfh4imYOE.jpg",
+        "genres": [
+          "Science Fiction",
+          "Animation",
+          "Drama"
+        ],
+        "rating": 8.0
+      },
+      {
+        "tmdb_id": "100592",
+        "title": "The Hand",
+        "poster_path": "https://image.tmdb.org/t/p/w500/83YdjKErufydzHqvJgyY5D7EUme.jpg",
+        "genres": [
+          "Animation",
+          "Horror"
+        ],
+        "rating": 7.4
+      },
+      {
+        "tmdb_id": "N/A",
+        "title": "Love, Death & Robots: Zima Blue",
+        "poster_path": "https://m.media-amazon.com/images/M/MV5BNTAwOTcyYzQtODliYS00Yjc3LWE4MzMtYmI4MjAwNTU4ZGFlXkEyXkFqcGc@._V1_.jpg",
+        "genres": [
+          "Animation",
+          "Science Fiction",
+          "Fantasy"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-02-16",
+    "movies": [
+      {
+        "tmdb_id": "489412",
+        "title": "It's Such a Beautiful Day",
+        "poster_path": "https://image.tmdb.org/t/p/w500/hop0dsM4nxyNENGhBhpJWTCJ5rS.jpg",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "rating": 7.9
+      },
+      {
+        "tmdb_id": "716668",
+        "title": "Twins in Paradise",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ybfp4gjvsSZbJBQJR6r2JLss1z9.jpg",
+        "genres": [
+          "Animation",
+          "Drama"
+        ],
+        "rating": 8.0
+      },
+      {
+        "tmdb_id": "758803",
+        "title": "OPAL",
+        "poster_path": "https://image.tmdb.org/t/p/w500/rabp6OsDUzUUcL7M5EEl4t1JnhD.jpg",
+        "genres": [
+          "Animation",
+          "Horror",
+          "Music"
+        ],
+        "rating": 8.3
+      },
+      {
+        "tmdb_id": "20722",
+        "title": "La Maison en Petits Cubes",
+        "poster_path": "https://image.tmdb.org/t/p/w500/kNGiHnbAToF1iIkN2kOTCEEXtAc.jpg",
+        "genres": [
+          "Animation"
+        ],
+        "rating": 7.906
+      }
+    ]
+  },
+  {
+    "date": "2026-02-23",
+    "movies": [
+      {
+        "tmdb_id": "889699",
+        "title": "Holy Spider",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6ObJ4x7m1F5QRY06WzOxNJQHwGb.jpg",
+        "genres": [
+          "Thriller",
+          "Drama",
+          "Crime",
+          "Horror"
+        ],
+        "rating": 7.271
+      }
+    ]
+  }
+]

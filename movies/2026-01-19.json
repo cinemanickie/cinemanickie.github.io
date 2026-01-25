@@ -1,0 +1,15 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": "1124566",
+        "title": "Sentimental Value",
+        "poster_path": "https://image.tmdb.org/t/p/w500/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
+        "genres": [
+          "Drama"
+        ],
+        "rating": 7.589
+      }
+    ]
+  }
+]

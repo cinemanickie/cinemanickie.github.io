@@ -1,0 +1,17 @@
+[
+  {
+    "movies": [
+      {
+        "tmdb_id": "1054867",
+        "title": "One Battle After Another",
+        "poster_path": "https://image.tmdb.org/t/p/w500/m1jFoahEbeQXtx4zArT2FKdbNIj.jpg",
+        "genres": [
+          "Thriller",
+          "Crime",
+          "Action"
+        ],
+        "rating": 7.427
+      }
+    ]
+  }
+]
