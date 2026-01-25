@@ -349,21 +349,6 @@
     ]
   },
   {
-    "date": "2024-07-22",
-    "movies": [
-      {
-        "tmdb_id": 49046,
-        "title": "All Quiet on the Western Front",
-        "poster_path": "https://image.tmdb.org/t/p/w500/2IRjbi9cADuDMKmHdLK7LaqQDKA.jpg",
-        "genres": [
-          "War",
-          "History",
-          "Drama"
-        ]
-      }
-    ]
-  },
-  {
     "date": "2024-08-05",
     "movies": [
       {
