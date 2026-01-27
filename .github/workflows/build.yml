@@ -1,0 +1,45 @@
+name: Build movies json
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "movies/**"
+      - "scripts/**"
+      - ".github/workflows/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-frontmatter requests
+
+      - name: Build tmdb cache
+        run: python scripts/build_tmdb_cache.py
+
+      - name: Build movies.json
+        run: python scripts/build_movies.py
+
+      - name: Commit & push movies.json
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add movies.json tmdb_cache.json
+          git diff --cached --quiet || git commit -m "Rebuild movies.json"
+          git push
