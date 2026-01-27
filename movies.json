@@ -1353,9 +1353,13 @@
       },
       {
         "title": "Love, Death & Robots: Zima Blue",
-        "year": null,
-        "poster_path": null,
-        "genres": null
+        "year": "2019-03-15",
+        "poster_path": "https://m.media-amazon.com/images/M/MV5BNTAwOTcyYzQtODliYS00Yjc3LWE4MzMtYmI4MjAwNTU4ZGFlXkEyXkFqcGc@._V1_.jpg",
+        "genres": [
+          "Animation",
+          "Science Fiction",
+          "Fantasy"
+        ]
       },
       {
         "title": "World of Tomorrow Episode Two: The Burden of Other People's Thoughts",
