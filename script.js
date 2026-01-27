@@ -43,12 +43,15 @@ fetch('movies.json')
 			const genres = movie.genres ? movie.genres.join(", ") : "N/A";
 
 			const releaseYear = movie.year.split('-')[0];
+
+			const ratingDiv = movie.rating ? `<div class="movie-rating">Rating: ${movie.rating}</div>` : '';
         
 			movieDiv.innerHTML = `
 				<img src="${movie.poster_path}" alt="${movie.title} poster" class="poster" onerror="this.onerror=null; this.src='images/poster-placeholder.jpg';">
 				<div class="movie-info">
 				<div class="movie-title">${movie.title} (${releaseYear})</div>
 				<div class="movie-genres"><strong>Genres:</strong> ${genres}</div>
+				${ratingDiv}
 				</div>
 			`;
 

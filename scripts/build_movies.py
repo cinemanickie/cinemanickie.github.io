@@ -41,6 +41,8 @@ for filename in os.listdir(MOVIES_DIR):
         "year": data.get("year") or movie.get("year"),
         "poster_path": data.get("poster") or movie.get("poster"),
         "genres": data.get("genres") or movie.get("genres"),
+        "rating": data.get("rating"),
+        "notes": data.get("notes")
     })
 
     date = data.get("date")
