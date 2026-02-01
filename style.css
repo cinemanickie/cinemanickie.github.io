@@ -39,15 +39,40 @@ h1, p {
     padding: 0.5em;
     border-radius: 5px;
 	transition: transform 0.12s ease;
+
+	height: 180px;
 }
 
 .movie:hover {
 	transform: scale(1.02);
 }
 
+.movie-info-other {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+	flex: 1;
+    overflow: hidden; /* truncate long text */
+}
+
+.movie-info {
+    flex: 1;
+
+    display: -webkit-box;       /* needed for multiline ellipsis */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;      /* max number of lines before ellipsis */
+    overflow: hidden;
+}
+
 .movie-title {
     font-size: 1.1em;
     color: #FFFFFF;
+}
+
+.movie-title, .movie-genres, .movie-rating {
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.2em;
 }
 
 #historic-btn {
