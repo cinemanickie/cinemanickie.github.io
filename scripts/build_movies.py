@@ -39,7 +39,7 @@ for filename in os.listdir(MOVIES_DIR):
     movie.update({
         "title": data.get("title", movie.get("title")),
         "year": data.get("year") or movie.get("year"),
-        "poster_path": data.get("poster") or movie.get("poster"),
+        "poster": data.get("poster") or movie.get("poster"),
         "genres": data.get("genres") or movie.get("genres"),
         "rating": data.get("rating"),
         "notes": data.get("notes")

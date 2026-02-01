@@ -50,7 +50,7 @@ fetch('movies.json')
 			const ratingDiv = movie.rating ? `<div class="movie-rating">Rating: ${movie.rating}</div>` : '';
         
 			movieDiv.innerHTML = `
-				<img src="${movie.poster_path}" alt="${movie.title} poster" class="poster" onerror="this.onerror=null; this.src='images/poster-placeholder.jpg';">
+				<img src="${movie.poster}" alt="${movie.title} poster" class="poster" onerror="this.onerror=null; this.src='images/poster-placeholder.jpg';">
 				<div class="movie-info">
 				<div class="movie-title">${movie.title} (${releaseYear})</div>
 				<div class="movie-genres"><strong>Genres:</strong> ${genres}</div>
@@ -65,7 +65,7 @@ fetch('movies.json')
 
 				content.innerHTML = `
 					<div class="popup-header">
-						<img src="${movie.poster_path}"
+						<img src="${movie.poster}"
 						alt="${movie.title} poster"
 						class="poster"
 						onerror="this.onerror=null; this.src='images/poster-placeholder.jpg';">

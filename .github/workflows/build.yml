@@ -2,7 +2,11 @@ name: Build movies json
 
 on:
   workflow_dispatch:
+    branches:
+      - main
   push:
+    branches:
+      - main
     paths:
       - "movies/**"
       - "scripts/**"
@@ -18,6 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           persist-credentials: true
 
       - name: Set up Python
@@ -48,5 +53,5 @@ jobs:
             exit 0
           fi
 
-          git commit --amend --no-edit
+          git commit --amend --no-edit --only movies.json tmdb_cache.json
           git push --force-with-lease
