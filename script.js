@@ -52,6 +52,7 @@ fetch('movies.json')
 				<div class="movie-title">${movie.title} (${releaseYear})</div>
 				<div class="movie-genres"><strong>Genres:</strong> ${genres}</div>
 				${ratingDiv}
+				<div class="movie-overview" style="display:none">${movie.overview}</div>
 				</div>
 			`;
 
@@ -59,6 +60,15 @@ fetch('movies.json')
 			});
 
 		container.appendChild(dateDiv);
+		});
+
+		document.querySelectorAll('.movie').forEach(movie => {
+			const overview = movie.querySelector('.movie-overview');
+			const poster = movie.querySelector('.poster');
+
+			poster.addEventListener('click', () => {
+				overview.style.display = overview.style.display === 'none' ? 'block' : 'none';
+			});
 		});
 
 		showMoreBtn.style.display = visibleCount >= filteredData.length ? 'none' : 'block';
