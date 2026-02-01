@@ -7,6 +7,9 @@ fetch('movies.json')
 	const toggleBtn = document.getElementById('historic-btn');
 	const showMoreBtn = document.getElementById('show-more-btn');
 
+	const overlay = document.getElementById('popup-overlay');
+	//const closeBtn = document.getElementById('popup-close');
+
 	let showHistoric = false;
 	const STEP = 25;
 	let visibleCount = STEP;
@@ -56,6 +59,33 @@ fetch('movies.json')
 			`;
 
 			dateDiv.appendChild(movieDiv);
+
+			movieDiv.addEventListener('click', () => {
+				const content = document.getElementById('popup-content');
+
+				content.innerHTML = `
+					<div class="popup-header">
+						<img src="${movie.poster_path}"
+						alt="${movie.title} poster"
+						class="poster"
+						onerror="this.onerror=null; this.src='images/poster-placeholder.jpg';">
+
+						<div class="popup-meta">
+						<h3>${movie.title} (${releaseYear})</h3>
+						<p><strong>Genres:</strong> ${genres}</p>
+						${movie.rating ? `<p><strong>Rating:</strong> ${movie.rating}</p>` : ''}
+						</div>
+					</div>
+				
+					${movie.overview ? `
+					<div class="popup-overview">
+						<p>${movie.overview}</p>
+					</div>
+					` : ''}
+				`;
+
+				overlay.classList.remove('hidden');
+			});
 			});
 
 		container.appendChild(dateDiv);
@@ -74,6 +104,12 @@ fetch('movies.json')
 		toggleBtn.textContent = showHistoric ? "Upcoming" : "Historic";
 		visibleCount = STEP;
 		renderMovies();
+	});
+
+	overlay.addEventListener('click', (e) => {
+		if (e.target === overlay) {
+			overlay.classList.add('hidden');
+		}
 	});
 
 	renderMovies();
