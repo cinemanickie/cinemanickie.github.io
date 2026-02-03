@@ -5,4 +5,7 @@ tmdb_id: 965171
 
 title: "Ice Merchants"
 date: 2026-02-02
+
+rating: 4.1
+attendees: Sara, Levana, Natalie, Jp, Nick
 ---
