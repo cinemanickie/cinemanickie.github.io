@@ -21,7 +21,8 @@ fetch('movies.json')
     }
 
 	function getFilteredData() {
-		const today = new Date().toISOString().split('T')[0];
+		// const today = new Date().toISOString().split('T')[0];
+		const today = new Date().toLocaleDateString('en-CA');
 		let filtered = showHistoric ? data : data.filter(day => day.date >= today);
 
 		return filtered.sort((a, b) => a.date.localeCompare(b.date));
