@@ -8,4 +8,6 @@ date: 2026-02-09
 
 poster: "https://m.media-amazon.com/images/M/MV5BNTAwOTcyYzQtODliYS00Yjc3LWE4MzMtYmI4MjAwNTU4ZGFlXkEyXkFqcGc@._V1_.jpg"
 genres: ["Animation", "Science Fiction", "Fantasy"]
+
+hide: true
 ---

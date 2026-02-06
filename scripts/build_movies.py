@@ -46,7 +46,8 @@ for filename in os.listdir(MOVIES_DIR):
     })
 
     date = data.get("date")
-    if not date:
+    hide = data.get("hide")
+    if not date or hide:
         continue
 
     days[date].append(movie)

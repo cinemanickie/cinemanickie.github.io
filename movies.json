@@ -1398,65 +1398,14 @@
     "date": "2026-02-09",
     "movies": [
       {
-        "title": "The Hand",
-        "year": "1965-10-26",
-        "poster": "https://image.tmdb.org/t/p/w500/83YdjKErufydzHqvJgyY5D7EUme.jpg",
+        "title": "A Bronx Tale",
+        "year": "1993-10-01",
+        "poster": "https://image.tmdb.org/t/p/w500/sDbO6LmLYtyqAoFTPpRcMgPSCEO.jpg",
         "genres": [
-          "Animation",
-          "Horror"
-        ],
-        "overview": "A happy little potter is approached by a huge hand which wants him to sculpt its statue. The potter refuses, wanting nothing more than to be left alone with his only friend, a potted plant. As the hand's request gives way to bribery, demands, and threats, the potter becomes more desperate to escape its clutch, leading to tragedy.",
-        "rating": null,
-        "notes": null
-      },
-      {
-        "title": "The Man Who Planted Trees",
-        "year": "1987-05-13",
-        "poster": "https://image.tmdb.org/t/p/w500/tEzdXghDipM4b8Qs1mzt4mvXT6l.jpg",
-        "genres": [
-          "Animation",
           "Drama",
-          "Fantasy"
+          "Crime"
         ],
-        "overview": "The story of one shepherd's single-handed quest to re-forest a desolate valley in the foothills of the French Alps throughout the first half of the 20th century.",
-        "rating": null,
-        "notes": null
-      },
-      {
-        "title": "World of Tomorrow",
-        "year": "2015-01-22",
-        "poster": "https://image.tmdb.org/t/p/w500/5s7DSOek7Bk2CvcG1zX01bJzJ0x.jpg",
-        "genres": [
-          "Animation",
-          "Drama",
-          "Science Fiction"
-        ],
-        "overview": "A little girl is taken on a mind-bending tour of her distant future.",
-        "rating": null,
-        "notes": null
-      },
-      {
-        "title": "Love, Death & Robots: Zima Blue",
-        "year": "2019-03-15",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNTAwOTcyYzQtODliYS00Yjc3LWE4MzMtYmI4MjAwNTU4ZGFlXkEyXkFqcGc@._V1_.jpg",
-        "genres": [
-          "Animation",
-          "Science Fiction",
-          "Fantasy"
-        ],
-        "rating": null,
-        "notes": null
-      },
-      {
-        "title": "World of Tomorrow Episode Two: The Burden of Other People's Thoughts",
-        "year": "2017-09-22",
-        "poster": "https://image.tmdb.org/t/p/w500/8nSucrEs2xZU1bXxhtMfh4imYOE.jpg",
-        "genres": [
-          "Science Fiction",
-          "Animation",
-          "Drama"
-        ],
-        "overview": "Emily Prime is swept into the brain of an incomplete backup clone of her future self.",
+        "overview": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl.",
         "rating": null,
         "notes": null
       }
