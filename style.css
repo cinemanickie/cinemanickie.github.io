@@ -8,7 +8,7 @@ body {
     font-size: 16px;
 }
 
-h1, p {
+#title {
     margin: 0.5em auto;
     text-align: center;
 }
@@ -243,3 +243,25 @@ h1, p {
   text-align: left;
 }
 
+.announcement {
+    margin: 1em 0;
+    padding: 1em;
+
+    background-color: #066C6E;
+    border: solid #104041;
+	border-radius: 5px;
+	box-shadow: 8px 8px 0 0 #104041;
+
+    display: none;
+}
+
+.announcement-heading {
+    margin: 0 0 0.5em 0;
+    text-align: left;
+}
+
+.announcement-line {
+    margin: 0.4em 0;
+    text-align: left;
+    line-height: 1.4em;
+}
