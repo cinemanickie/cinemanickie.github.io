@@ -5,6 +5,7 @@ fetch('movies.json')
 	
     const container = document.getElementById('movies-container');
 	const toggleBtn = document.getElementById('historic-btn');
+	const recentBtn = document.getElementById('recent-btn');
 	const showMoreBtn = document.getElementById('show-more-btn');
 
 	const overlay = document.getElementById('popup-overlay');
@@ -92,6 +93,7 @@ fetch('movies.json')
 		container.appendChild(dateDiv);
 		});
 
+		recentBtn.style.display = showHistoric ? 'block' : 'none';
 		showMoreBtn.style.display = visibleCount >= filteredData.length ? 'none' : 'block';
 	}
 
@@ -105,6 +107,37 @@ fetch('movies.json')
 		toggleBtn.textContent = showHistoric ? "Upcoming" : "Historic";
 		visibleCount = STEP;
 		renderMovies();
+	});
+	
+	recentBtn.addEventListener('click', () => {
+		if (!showHistoric) {
+			showHistoric = true;
+			toggleBtn.textContent = "Upcoming";
+		}
+
+		const today = new Date().toLocaleDateString('en-CA');
+		const sorted = getFilteredData();
+
+		const firstUpcomingIndex = sorted.findIndex(day => day.date >= today);
+
+		const targetIndex = firstUpcomingIndex === -1 ? sorted.length - 1 : firstUpcomingIndex - 1;
+
+		if (targetIndex < 0) return;
+
+		while (visibleCount <= targetIndex) {
+			visibleCount += STEP;
+		}
+		
+		renderMovies();
+
+		setTimeout(() => {
+			const blocks = document.querySelectorAll('.date-block');
+			const targetBlock = blocks[targetIndex];
+
+			if (targetBlock) {
+				targetBlock.scrollIntoView({ behavior: 'smooth' });
+			}
+		}, 100);
 	});
 
 	overlay.addEventListener('click', (e) => {

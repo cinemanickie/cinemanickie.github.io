@@ -88,6 +88,20 @@ h1, p {
     transition: transform 0.1s;
 }
 
+#recent-btn {
+	background-color: #066C6E;
+    color: #FFFFFF;
+    border: solid 3px #104041;
+    box-shadow: 5px 5px 0 0 #104041;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-family: serif;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.1s;
+	display: none;
+}
+
 #show-more-btn {
 	display: block;
 	margin: 1em auto;
@@ -118,6 +132,11 @@ h1, p {
 	justify-content: space-between;
 	align-items: center;
 	margin: 1em 0;
+}
+
+.button-group {
+	display: flex;
+	gap: 0.5em;
 }
 
 .credit {
