@@ -87,7 +87,10 @@ def build_announcements():
             "title": data.get("title", ""),
             "message": data.get("message", ""),
             "expires": expires,
+            "icon": data.get("icon", ""),
         });
+
+    announcements.sort(key=lambda a: a['expires'] or datetime.date.max)
 
     return announcements
 

@@ -164,6 +164,18 @@ body {
 	image-rendering: pixelated;
 }
 
+.logo-cone {
+	width: 28px;
+	height: 28px;
+	image-rendering: pixelated;
+}
+
+.logo-block {
+	width: 28px;
+	height: 28px;
+	image-rendering: pixelated;
+}
+
 #popup-overlay {
   position: fixed;
   inset: 0;
@@ -252,6 +264,9 @@ body {
   margin: 0;
   line-height: 1.4;
   text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
 
 #announcement-btn {

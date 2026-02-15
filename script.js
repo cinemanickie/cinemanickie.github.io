@@ -105,7 +105,10 @@ function showAnnouncements(announcements) {
 	} else {
 		html += '<div class="popup-overview">';
 		html += announcements.map(item => {
-			let titleLine = item.title ? `<p><strong>${item.title}</strong></p>` : '';
+			let iconHtml = item.icon
+                ? `<img src="icons/${item.icon}.png" alt="${item.icon}" class="logo-${item.icon}"> `
+                : '';
+			let titleLine = item.title ? `<p>${iconHtml}<strong>${item.title}</strong></p>` : '';
 			let messageLine = item.message ? `<p>${item.message}</p>` : '';
 			return titleLine + messageLine;
 		}).join('');

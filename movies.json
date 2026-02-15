@@ -3,12 +3,20 @@
     {
       "title": "Short Films Cancelled",
       "message": "After some deliberation, short films have been cancelled for the rest of February.",
-      "expires": "2026-02-17"
+      "expires": "2026-02-17",
+      "icon": "block"
     },
     {
       "title": "Family Day Cancelled",
       "message": "Movie Night on Feb 16 2026 has been cancelled. Enjoy Family Day.",
-      "expires": "2026-02-17"
+      "expires": "2026-02-17",
+      "icon": "block"
+    },
+    {
+      "title": "New Features",
+      "message": "New announcement button! New tabs display between upcoming scheduled movies and historical schedule. Navigation: while on the history tab, tap again on the history tab to auto-scroll to most recently watched movie, up icon takes you back to the top.",
+      "expires": "2026-03-01",
+      "icon": "cone"
     }
   ],
   "schedule": [
