@@ -12,8 +12,6 @@ const overlay = document.getElementById('popup-overlay');
 const popupContent = document.getElementById('popup-content');
 
 let currentTab = 'upcoming';
-let lastHistoryTap = 0;
-const DOUBLE_TAP_MS = 350;
 
 function getReleaseYear(yearStr) {
     return yearStr.split('-')[0];
@@ -155,14 +153,10 @@ document.querySelectorAll('.tab').forEach(tab => {
 		const now = Date.now();
 
 		if (tabName === 'history' && currentTab === 'history') {
-            if (now - lastHistoryTap < DOUBLE_TAP_MS) {
-                scrollToMostRecent();
-                lastHistoryTap = 0;
-                return;
-            }
+			scrollToMostRecent();
+			return;
         }
 
-        lastHistoryTap = now;
         document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
         setTab(tabName);
