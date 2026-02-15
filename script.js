@@ -2,12 +2,26 @@ const STEP = 25;
 let showHistoric = false;
 let visibleCount = STEP;
 let scheduleData = [];
+let announcementsData = [];
 
 const container = document.getElementById('movies-container');
-const toggleBtn = document.getElementById('historic-btn');
-const recentBtn = document.getElementById('recent-btn');
 const showMoreBtn = document.getElementById('show-more-btn');
+const announcementBtn = document.getElementById('announcement-btn');
+const scrollTopBtn = document.getElementById('scroll-top-btn');
 const overlay = document.getElementById('popup-overlay');
+const popupContent = document.getElementById('popup-content');
+
+let currentTab = 'upcoming';
+let lastHistoryTap = 0;
+const DOUBLE_TAP_MS = 350;
+
+function getReleaseYear(yearStr) {
+    return yearStr.split('-')[0];
+}
+
+function formatGenres(genres) {
+    return genres && genres.length ? genres.join(', ') : 'N/A';
+}
 
 function formatDate(dateStr) {
     const [year, month, day] = dateStr.split('-');
@@ -21,12 +35,16 @@ function getFilteredData(schedule) {
 	return filtered.sort((a, b) => a.date.localeCompare(b.date));
 }
 
-function renderPopUp(movie) {
-	const content = document.getElementById('popup-content');
-	const releaseYear = movie.year.split('-')[0];
-	const genres = movie.genres ? movie.genres.join(', ') : 'N/A';
+function showPopup(html) {
+    popupContent.innerHTML = html;
+    overlay.classList.remove('hidden');
+}
 
-	content.innerHTML = `
+function renderPopUp(movie) {
+	const releaseYear = getReleaseYear(movie.year);
+	const genres = formatGenres(movie.genres);
+
+	const html = `
 		<div class="popup-header">
 			<img src="${movie.poster}" alt="${movie.title} poster" class="poster"
 				onerror="this.onerror=null;this.src='images/poster-placeholder.jpg';">
@@ -38,7 +56,8 @@ function renderPopUp(movie) {
 		</div>
 		${movie.overview ? `<div class="popup-overview"><p>${movie.overview}</p></div>` : ''}
 	`;
-	overlay.classList.remove('hidden');
+	
+	showPopup(html);
 }
 
 function renderMovies(schedule) {
@@ -77,34 +96,25 @@ function renderMovies(schedule) {
 		container.appendChild(dateDiv);
 	});
 
-	recentBtn.style.display = showHistoric ? 'block' : 'none';
 	showMoreBtn.style.display = visibleCount >= filteredData.length ? 'none' : 'block';
 }
 
-function renderAnnouncement(announcements) {
-	const wrapper = document.querySelector('.announcement');
-	const list = document.querySelector('.announcement-list');
-
-	list.innerHTML = '';
+function showAnnouncements(announcements) {
+	let html = `<h3>Announcements</h3>`;
 
 	if (!announcements || announcements.length === 0) {
-		wrapper.style.display = 'none';
-		return;
+		html += '<p>No announcements at this time.</p>';
+	} else {
+		html += '<div class="popup-overview">';
+		html += announcements.map(item => {
+			let titleLine = item.title ? `<p><strong>${item.title}</strong></p>` : '';
+			let messageLine = item.message ? `<p>${item.message}</p>` : '';
+			return titleLine + messageLine;
+		}).join('');
+		html += '</div>';
 	}
 
-	wrapper.style.display = 'block';
-
-	announcements.forEach(item => {
-		const line = document.createElement('p');
-		line.className = 'announcement-item';
-
-		line.innerHTML = `
-			${item.title ? `<strong>${item.title}:</strong> ` : ''}
-			${item.message || ''}
-		`;
-
-		list.appendChild(line);
-	});
+	showPopup(html);
 }
 
 function handleShowMore() {
@@ -112,188 +122,83 @@ function handleShowMore() {
 	renderMovies(scheduleData);
 }
 
-function handleToggleHistoric() {
-	showHistoric = !showHistoric;
-	toggleBtn.textContent = showHistoric ? 'Upcoming' : 'Historic';
+function setTab(tabName) {
+	currentTab = tabName;
+	showHistoric = tabName === 'history';
 	visibleCount = STEP;
 	renderMovies(scheduleData);
 }
 
-function handleMostRecent() {
+function scrollToMostRecent() {
 	const today = new Date().toLocaleDateString('en-CA');
 	const filtered = getFilteredData(scheduleData);
 	const firstUpcomingIndex = filtered.findIndex(day => day.date >= today);
 	const targetIndex = firstUpcomingIndex === -1 ? filtered.length - 1 : firstUpcomingIndex - 1;
 
 	if (targetIndex < 0) return;
-
 	while (visibleCount <= targetIndex) visibleCount += STEP;
 
 	renderMovies(scheduleData);
 
-	setTimeout(() => {
-		const blocks = document.querySelectorAll('.date-block');
-		const targetBlock = blocks[targetIndex];
-		if (targetBlock) targetBlock.scrollIntoView({ behavior: 'smooth' });
-	}, 100);
+	requestAnimationFrame(() => {
+		requestAnimationFrame(() => {
+			const blocks = document.querySelectorAll('.date-block');
+			const targetBlock = blocks[targetIndex];
+			if (targetBlock) targetBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		});
+	});
 }
+
+document.querySelectorAll('.tab').forEach(tab => {
+	tab.addEventListener('click', () => {
+		const tabName = tab.dataset.tab;
+		const now = Date.now();
+
+		if (tabName === 'history' && currentTab === 'history') {
+            if (now - lastHistoryTap < DOUBLE_TAP_MS) {
+                scrollToMostRecent();
+                lastHistoryTap = 0;
+                return;
+            }
+        }
+
+        lastHistoryTap = now;
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        setTab(tabName);
+	});
+});
+
+overlay.addEventListener('click', (e) => {
+	if (e.target === overlay) overlay.classList.add('hidden');
+});
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+        scrollTopBtn.style.display = 'block';
+    } else {
+        scrollTopBtn.style.display = 'none';
+    }
+});
 
 
 fetch('movies.json')
 	.then(res => res.json())
 	.then(data => {
 		scheduleData = data.schedule;
-		renderAnnouncement(data.announcements);
+		announcementsData = data.announcements || [];
 		renderMovies(data.schedule);
 	})
 	.catch(err => console.error('Error loading movies.json:', err));
 
 showMoreBtn.addEventListener('click', handleShowMore);
-toggleBtn.addEventListener('click', handleToggleHistoric);
-recentBtn.addEventListener('click', handleMostRecent);
-overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.classList.add('hidden'); });
 
+announcementBtn.addEventListener('click', () => {
+	showAnnouncements(announcementsData);
+});
 
-/*
-fetch('movies.json')
-  .then(response => response.json())
-  .then(data => {
-	let allData = data;
-	
-    const container = document.getElementById('movies-container');
-	const toggleBtn = document.getElementById('historic-btn');
-	const recentBtn = document.getElementById('recent-btn');
-	const showMoreBtn = document.getElementById('show-more-btn');
+scrollTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
-	const overlay = document.getElementById('popup-overlay');
-	//const closeBtn = document.getElementById('popup-close');
-
-	let showHistoric = false;
-	const STEP = 25;
-	let visibleCount = STEP;
-
-	
-	
-	function renderMovies() {
-		const filteredData = getFilteredData();
-		container.innerHTML = '';
-
-		filteredData.slice(0, visibleCount).forEach(day => {
-			const dateDiv = document.createElement('div');
-			dateDiv.className = 'date-block';
-
-			const dateHeader = document.createElement('h2');
-			dateHeader.textContent = formatDate(day.date);
-			dateDiv.appendChild(dateHeader);
-
-			day.movies.forEach(movie => {
-			const movieDiv = document.createElement('div');
-			movieDiv.className = 'movie';
-
-			const genres = movie.genres ? movie.genres.join(", ") : "N/A";
-
-			const releaseYear = movie.year.split('-')[0];
-
-			const ratingDiv = movie.rating ? `<div class="movie-rating">Rating: ${movie.rating}</div>` : '';
-        
-			movieDiv.innerHTML = `
-				<img src="${movie.poster}" alt="${movie.title} poster" class="poster" onerror="this.onerror=null; this.src='images/poster-placeholder.jpg';">
-				<div class="movie-info">
-				<div class="movie-title">${movie.title} (${releaseYear})</div>
-				<div class="movie-genres"><strong>Genres:</strong> ${genres}</div>
-				${ratingDiv}
-				</div>
-			`;
-
-			dateDiv.appendChild(movieDiv);
-
-			movieDiv.addEventListener('click', () => {
-				const content = document.getElementById('popup-content');
-
-				content.innerHTML = `
-					<div class="popup-header">
-						<img src="${movie.poster}"
-						alt="${movie.title} poster"
-						class="poster"
-						onerror="this.onerror=null; this.src='images/poster-placeholder.jpg';">
-
-						<div class="popup-meta">
-						<h3>${movie.title} (${releaseYear})</h3>
-						<p><strong>Genres:</strong> ${genres}</p>
-						${movie.rating ? `<p><strong>Rating:</strong> ${movie.rating}</p>` : ''}
-						</div>
-					</div>
-				
-					${movie.overview ? `
-					<div class="popup-overview">
-						<p>${movie.overview}</p>
-					</div>
-					` : ''}
-				`;
-
-				overlay.classList.remove('hidden');
-			});
-			});
-
-		container.appendChild(dateDiv);
-		});
-
-		recentBtn.style.display = showHistoric ? 'block' : 'none';
-		showMoreBtn.style.display = visibleCount >= filteredData.length ? 'none' : 'block';
-	}
-
-	showMoreBtn.addEventListener('click', () => {
-		visibleCount += STEP;
-		renderMovies();
-	});
-	
-	toggleBtn.addEventListener('click', () => {
-		showHistoric = !showHistoric;
-		toggleBtn.textContent = showHistoric ? "Upcoming" : "Historic";
-		visibleCount = STEP;
-		renderMovies();
-	});
-	
-	recentBtn.addEventListener('click', () => {
-		if (!showHistoric) {
-			showHistoric = true;
-			toggleBtn.textContent = "Upcoming";
-		}
-
-		const today = new Date().toLocaleDateString('en-CA');
-		const sorted = getFilteredData();
-
-		const firstUpcomingIndex = sorted.findIndex(day => day.date >= today);
-
-		const targetIndex = firstUpcomingIndex === -1 ? sorted.length - 1 : firstUpcomingIndex - 1;
-
-		if (targetIndex < 0) return;
-
-		while (visibleCount <= targetIndex) {
-			visibleCount += STEP;
-		}
-		
-		renderMovies();
-
-		setTimeout(() => {
-			const blocks = document.querySelectorAll('.date-block');
-			const targetBlock = blocks[targetIndex];
-
-			if (targetBlock) {
-				targetBlock.scrollIntoView({ behavior: 'smooth' });
-			}
-		}, 100);
-	});
-
-	overlay.addEventListener('click', (e) => {
-		if (e.target === overlay) {
-			overlay.classList.add('hidden');
-		}
-	});
-
-	renderMovies();
-})
-  .catch(error => {
-    console.error('Error loading movies.json:', error);
-  });
-*/
+scrollTopBtn.style.display = 'none';
