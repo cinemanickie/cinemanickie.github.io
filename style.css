@@ -52,15 +52,14 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 	flex: 1;
-    overflow: hidden; /* truncate long text */
+    overflow: hidden;
 }
 
 .movie-info {
     flex: 1;
-
-    display: -webkit-box;       /* needed for multiline ellipsis */
+    display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 8;      /* max number of lines before ellipsis */
+    -webkit-line-clamp: 8;
     overflow: hidden;
 }
 
@@ -147,9 +146,21 @@ body {
 	opacity: 0.85;
 }
 
-.logo {
+.logo-cd {
 	width: 28px;
 	height: auto;
+	image-rendering: pixelated;
+}
+
+.logo-announcement {
+	width: 32px;
+	height: auto;
+	image-rendering: pixelated;
+}
+
+.logo-up {
+	width: 21px;
+	height: 22px;
 	image-rendering: pixelated;
 }
 
@@ -243,25 +254,71 @@ body {
   text-align: left;
 }
 
-.announcement {
-    margin: 1em 0;
-    padding: 1em;
+#announcement-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
 
+.tabs {
+	display: flex;
+	gap: 0.5em;
+	margin: 0 0 -0.2em 0;
+	justify-content: flex-start;
+	position: relative;
+	z-index: 2;
+}
+
+.tab {
+    padding: 0.3em 0.8em;
+    font-family: serif;
+    font-size: 0.95em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #104041;
+    border-radius: 5px 5px 0 0;
+    background-color: #265455;
+    color: #FFFFFF;
+	z-index: 2;
+}
+
+.tab:first-child {
+    margin-left: 10px;
+}
+
+.tab.active {
     background-color: #066C6E;
-    border: solid #104041;
-	border-radius: 5px;
-	box-shadow: 8px 8px 0 0 #104041;
-
-    display: none;
 }
 
-.announcement-heading {
-    margin: 0 0 0.5em 0;
-    text-align: left;
+.tabs-line {
+    height: 3px;
+    background-color: #104041;
+    width: 100%;
+    margin-bottom: -3px;
 }
 
-.announcement-line {
-    margin: 0.4em 0;
-    text-align: left;
-    line-height: 1.4em;
+#scroll-top-btn {
+	position: sticky;
+	bottom: 20px;
+	float: right;
+	margin-right: -35px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+	transition: transform 0.1s;
+}
+
+#scroll-top-btn:hover {
+    transform: translate(-1px, -1px);
+}
+
+#announcement-btn:hover {
+    transform: translate(-1px, -1px);
+}
+
+#content-column {
+	position: relative;
 }

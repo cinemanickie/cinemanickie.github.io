@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="cd.png" type="png">
   <title>cinema nickie presents</title>
 </head>
 <body>
@@ -13,28 +13,29 @@
 	<h1 id="title">cinema nickie presents:</h1>
 	
 	<div class="controls">
-		<div class="button-group">
-			<button id="historic-btn">Historic</button>
-			<button id="recent-btn">Most Recent</button>
-		</div>
+		<button id="announcement-btn"><img src="announcement.png" alt="Announcement" class="logo-announcement"></button>
 
 		<div class="credit">
 			by jp
-			<img src="cd.png" alt="" class="logo">
+			<img src="cd.png" alt="" class="logo-cd">
 		</div>
 	</div>
 
-	<div class="announcement">
-		<h2 class="announcement-heading">Announcements</h2>
-		<div class="announcement-list"></div>
+	<div class="tabs">
+		<button class="tab active" data-tab="upcoming">Upcoming</button>
+		<button class="tab" data-tab="history">History</button>
 	</div>
 	
-	<div id="movies-container"></div>
-	<button id="show-more-btn">Show more</button>
+	<div class="tabs-line"></div>
+	
+	<div id="content-column">
+		<div id="movies-container"></div>
+		<button id="scroll-top-btn"><img src="up.png" alt="↑" class="logo-up"></button>
+		<button id="show-more-btn">Show more</button>
+	</div>
 
 	<div id="popup-overlay" class="hidden">
 		<div id="popup">
-			<!--<button id="popup-close">✕</button>-->
 		<div id="popup-content"></div>
 		</div>
 	</div>
