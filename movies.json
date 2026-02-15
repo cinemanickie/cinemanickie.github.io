@@ -1343,6 +1343,18 @@
     "date": "2026-02-02",
     "movies": [
       {
+        "title": "Ice Merchants",
+        "year": "2023-02-16",
+        "poster": "https://image.tmdb.org/t/p/w500/uDoiGF4KqyNglxaIJlRWdFQ4WJT.jpg",
+        "genres": [
+          "Animation",
+          "Drama"
+        ],
+        "overview": "Every day, a father and his son jump with a parachute from their vertiginous cold house, attached to a cliff, to go to the village on the ground, far away where they sell the ice they produce daily.",
+        "rating": 4.1,
+        "notes": null
+      },
+      {
         "title": "A Trip to the Moon",
         "year": "1902-06-15",
         "poster": "https://image.tmdb.org/t/p/w500/9o0v5LLFk51nyTBHZSre6OB37n2.jpg",
@@ -1353,6 +1365,17 @@
         ],
         "overview": "Professor Barbenfouillis and five of his colleagues from the Academy of Astronomy travel to the Moon aboard a rocket propelled by a giant cannon. Once on the lunar surface, the bold explorers face the many perils hidden in the caves of the mysterious planet.",
         "rating": 2.2,
+        "notes": null
+      },
+      {
+        "title": "Tale of Tales",
+        "year": "1979-01-05",
+        "poster": "https://image.tmdb.org/t/p/w500/7gWBy9z4JrkDPSfG5VbjWbbgvxk.jpg",
+        "genres": [
+          "Animation"
+        ],
+        "overview": "Distant, well-worn memories of childhood are inhabited by a little gray wolf. Through astonishing imagery, the memory of all of Russia is depicted.",
+        "rating": 3.1,
         "notes": null
       },
       {
@@ -1367,29 +1390,6 @@
         ],
         "overview": "A young boy discovers a stray balloon, which seems to have a mind of its own, on the streets of Paris. The two become inseparable, yet the world\u2019s harsh realities finally interfere.",
         "rating": 2.2,
-        "notes": null
-      },
-      {
-        "title": "Ice Merchants",
-        "year": "2023-02-16",
-        "poster": "https://image.tmdb.org/t/p/w500/uDoiGF4KqyNglxaIJlRWdFQ4WJT.jpg",
-        "genres": [
-          "Animation",
-          "Drama"
-        ],
-        "overview": "Every day, a father and his son jump with a parachute from their vertiginous cold house, attached to a cliff, to go to the village on the ground, far away where they sell the ice they produce daily.",
-        "rating": 4.1,
-        "notes": null
-      },
-      {
-        "title": "Tale of Tales",
-        "year": "1979-01-05",
-        "poster": "https://image.tmdb.org/t/p/w500/7gWBy9z4JrkDPSfG5VbjWbbgvxk.jpg",
-        "genres": [
-          "Animation"
-        ],
-        "overview": "Distant, well-worn memories of childhood are inhabited by a little gray wolf. Through astonishing imagery, the memory of all of Russia is depicted.",
-        "rating": 3.1,
         "notes": null
       }
     ]
@@ -1407,59 +1407,6 @@
         ],
         "overview": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl.",
         "rating": 3.9,
-        "notes": null
-      }
-    ]
-  },
-  {
-    "date": "2026-02-16",
-    "movies": [
-      {
-        "title": "Twins in Paradise",
-        "year": "2024-11-08",
-        "poster": "https://image.tmdb.org/t/p/w500/ybfp4gjvsSZbJBQJR6r2JLss1z9.jpg",
-        "genres": [
-          "Animation",
-          "Drama"
-        ],
-        "overview": "Twin girls cope with the pressure of tennis stardom and the absence of their mother in an unstable society.",
-        "rating": null,
-        "notes": null
-      },
-      {
-        "title": "La Maison en Petits Cubes",
-        "year": "2008-06-10",
-        "poster": "https://image.tmdb.org/t/p/w500/kNGiHnbAToF1iIkN2kOTCEEXtAc.jpg",
-        "genres": [
-          "Animation"
-        ],
-        "overview": "La Maison en Petits Cubes tells the story of a grandfather's memories as he adds more blocks to his house to stem the flooding waters.",
-        "rating": null,
-        "notes": null
-      },
-      {
-        "title": "It's Such a Beautiful Day",
-        "year": "2012-08-24",
-        "poster": "https://image.tmdb.org/t/p/w500/hop0dsM4nxyNENGhBhpJWTCJ5rS.jpg",
-        "genres": [
-          "Animation",
-          "Comedy"
-        ],
-        "overview": "Bill struggles to put together his shattered psyche.",
-        "rating": null,
-        "notes": null
-      },
-      {
-        "title": "OPAL",
-        "year": "2020-10-30",
-        "poster": "https://image.tmdb.org/t/p/w500/rabp6OsDUzUUcL7M5EEl4t1JnhD.jpg",
-        "genres": [
-          "Animation",
-          "Horror",
-          "Music"
-        ],
-        "overview": "A curious girl investigates the cries she hears coming from a forbidden house across the street.",
-        "rating": null,
         "notes": null
       }
     ]
