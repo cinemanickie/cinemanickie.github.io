@@ -5,4 +5,6 @@ tmdb_id: 758803
 
 title: "OPAL"
 date: 2026-02-16
+
+hide: true
 ---

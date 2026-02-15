@@ -1412,24 +1412,6 @@
     ]
   },
   {
-    "date": "2026-02-16",
-    "movies": [
-      {
-        "title": "OPAL",
-        "year": "2020-10-30",
-        "poster": "https://image.tmdb.org/t/p/w500/rabp6OsDUzUUcL7M5EEl4t1JnhD.jpg",
-        "genres": [
-          "Animation",
-          "Horror",
-          "Music"
-        ],
-        "overview": "A curious girl investigates the cries she hears coming from a forbidden house across the street.",
-        "rating": null,
-        "notes": null
-      }
-    ]
-  },
-  {
     "date": "2026-02-23",
     "movies": [
       {
