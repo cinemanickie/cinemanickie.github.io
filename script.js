@@ -50,6 +50,7 @@ function renderPopUp(movie) {
 				<h3>${movie.title} (${releaseYear})</h3>
 				<p><strong>Genres:</strong> ${genres}</p>
 				${movie.rating ? `<p><strong>Rating:</strong> ${movie.rating}</p>` : ''}
+				${movie.notes ? `<p>Notes: ${movie.notes}</p>` : ''}
 			</div>
 		</div>
 		${movie.overview ? `<div class="popup-overview"><p>${movie.overview}</p></div>` : ''}
