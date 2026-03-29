@@ -1345,18 +1345,6 @@
       "date": "2026-02-02",
       "movies": [
         {
-          "title": "Ice Merchants",
-          "year": "2023-02-16",
-          "poster": "https://image.tmdb.org/t/p/w500/uDoiGF4KqyNglxaIJlRWdFQ4WJT.jpg",
-          "genres": [
-            "Animation",
-            "Drama"
-          ],
-          "overview": "Every day, a father and his son jump with a parachute from their vertiginous cold house, attached to a cliff, to go to the village on the ground, far away where they sell the ice they produce daily.",
-          "rating": 4.1,
-          "notes": null
-        },
-        {
           "title": "A Trip to the Moon",
           "year": "1902-06-15",
           "poster": "https://image.tmdb.org/t/p/w500/9o0v5LLFk51nyTBHZSre6OB37n2.jpg",
@@ -1378,6 +1366,18 @@
           ],
           "overview": "Distant, well-worn memories of childhood are inhabited by a little gray wolf. Through astonishing imagery, the memory of all of Russia is depicted.",
           "rating": 3.1,
+          "notes": null
+        },
+        {
+          "title": "Ice Merchants",
+          "year": "2023-02-16",
+          "poster": "https://image.tmdb.org/t/p/w500/uDoiGF4KqyNglxaIJlRWdFQ4WJT.jpg",
+          "genres": [
+            "Animation",
+            "Drama"
+          ],
+          "overview": "Every day, a father and his son jump with a parachute from their vertiginous cold house, attached to a cliff, to go to the village on the ground, far away where they sell the ice they produce daily.",
+          "rating": 4.1,
           "notes": null
         },
         {
@@ -1506,15 +1506,47 @@
       "date": "2026-03-30",
       "movies": [
         {
-          "title": "People We Meet on Vacation",
-          "year": "2026-01-06",
-          "poster": "https://image.tmdb.org/t/p/w500/kOrJqRyt1pklNgDwJMjzN1GuNXS.jpg",
+          "title": "Far from the Madding Crowd",
+          "year": "2015-04-23",
+          "poster": "https://image.tmdb.org/t/p/w500/cr4cctBPv9qHDtjDps4wi0kqI7h.jpg",
           "genres": [
-            "Romance",
-            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "overview": "In Victorian England, the independent and headstrong Bathsheba Everdene attracts three very different suitors: Gabriel Oak, a hardworking young sheep farmer; Frank Troy, a handsome and reckless Sergeant; and William Boldwood, a prosperous and mature bachelor.",
+          "rating": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "movies": [
+        {
+          "title": "Zone of Interest",
+          "year": "2023-12-15",
+          "poster": "https://image.tmdb.org/t/p/w500/hUu9zyZmDd8VZegKi1iK1Vk0RYS.jpg",
+          "genres": [
+            "Drama",
+            "History"
+          ],
+          "overview": "The commandant of Auschwitz, Rudolf H\u00f6ss, and his wife Hedwig, strive to build a dream life for their family in a house and garden next to the camp.",
+          "rating": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "movies": [
+        {
+          "title": "Taste of Cherry",
+          "year": "1997-09-28",
+          "poster": "https://image.tmdb.org/t/p/w500/u6GYH4HyR0BVwpqFuTOc2g4KB1L.jpg",
+          "genres": [
             "Drama"
           ],
-          "overview": "Poppy's a free spirit. Alex loves a plan. After years of summer vacations, these polar-opposite pals wonder if they could be a perfect romantic match.",
+          "overview": "A middle-aged Tehranian man, Mr. Badii is intent on killing himself and seeks someone to bury him after his demise. Driving around the city, the seemingly well-to-do Badii meets with numerous people, including a Muslim student, asking them to take on the job, but initially he has little luck. Eventually, Badii finds a man who is up for the task because he needs the money, but his new associate soon tries to talk him out of committing suicide.",
           "rating": null,
           "notes": null
         }
