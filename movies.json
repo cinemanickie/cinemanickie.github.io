@@ -1523,14 +1523,13 @@
       "date": "2026-04-06",
       "movies": [
         {
-          "title": "Zone of Interest",
-          "year": "2023-12-15",
-          "poster": "https://image.tmdb.org/t/p/w500/hUu9zyZmDd8VZegKi1iK1Vk0RYS.jpg",
+          "title": "Marty Supreme",
+          "year": "2025-12-19",
+          "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
           "genres": [
-            "Drama",
-            "History"
+            "Drama"
           ],
-          "overview": "The commandant of Auschwitz, Rudolf H\u00f6ss, and his wife Hedwig, strive to build a dream life for their family in a house and garden next to the camp.",
+          "overview": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
           "rating": null,
           "notes": null
         }
@@ -1540,13 +1539,108 @@
       "date": "2026-04-13",
       "movies": [
         {
-          "title": "Taste of Cherry",
-          "year": "1997-09-28",
-          "poster": "https://image.tmdb.org/t/p/w500/u6GYH4HyR0BVwpqFuTOc2g4KB1L.jpg",
+          "title": "Hamnet",
+          "year": "2025-11-26",
+          "poster": "https://image.tmdb.org/t/p/w500/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
           "genres": [
+            "Drama",
+            "Romance",
+            "History"
+          ],
+          "overview": "The powerful story of love and loss that inspired the creation of Shakespeare's timeless masterpiece, Hamlet.",
+          "rating": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-04-20",
+      "movies": [
+        {
+          "title": "Training Day",
+          "year": "2001-10-05",
+          "poster": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+          "genres": [
+            "Action",
+            "Crime",
             "Drama"
           ],
-          "overview": "A middle-aged Tehranian man, Mr. Badii is intent on killing himself and seeks someone to bury him after his demise. Driving around the city, the seemingly well-to-do Badii meets with numerous people, including a Muslim student, asking them to take on the job, but initially he has little luck. Eventually, Badii finds a man who is up for the task because he needs the money, but his new associate soon tries to talk him out of committing suicide.",
+          "overview": "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears.",
+          "rating": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "movies": [
+        {
+          "title": "The Boy and the Heron",
+          "year": "2023-07-14",
+          "poster": "https://image.tmdb.org/t/p/w500/4GKye5dR4uJyYbcyTveSue1gATD.jpg",
+          "genres": [
+            "Animation",
+            "Adventure",
+            "Fantasy",
+            "Drama",
+            "Family"
+          ],
+          "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother. As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
+          "rating": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "movies": [
+        {
+          "title": "The Walk",
+          "year": "2015-09-30",
+          "poster": "https://image.tmdb.org/t/p/w500/lSoPmBq0kaU9jwZNbpEVwua8J3s.jpg",
+          "genres": [
+            "History",
+            "Drama",
+            "Adventure"
+          ],
+          "overview": "The story of French high-wire artist Philippe Petit's attempt to cross the Twin Towers of the World Trade Center in 1974.",
+          "rating": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "movies": [
+        {
+          "title": "L.A. Confidential",
+          "year": "1997-09-19",
+          "poster": "https://image.tmdb.org/t/p/w500/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+          "genres": [
+            "Crime",
+            "Mystery",
+            "Thriller",
+            "Drama"
+          ],
+          "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+          "rating": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "movies": [
+        {
+          "title": "Isle of Dogs",
+          "year": "2018-03-23",
+          "poster": "https://image.tmdb.org/t/p/w500/c0nUX6Q1ZB0P2t1Jo6EeFSVnOGQ.jpg",
+          "genres": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+          ],
+          "overview": "In the future, an outbreak of canine flu leads the mayor of a Japanese city to banish all dogs to an island used as a garbage dump. The outcasts must soon embark on an epic journey when a 12-year-old boy arrives on the island to find his beloved pet.",
           "rating": null,
           "notes": null
         }
