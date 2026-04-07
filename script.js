@@ -84,7 +84,8 @@ function renderMovies(schedule) {
 				<div class="movie-info">
 					<div class="movie-title">${movie.title} (${releaseYear})</div>
 					<div class="movie-genres"><strong>Genres:</strong> ${genres}</div>
-					${ratingDiv}
+                    ${movie.rating ? `<div class="movie-rating">Rating: ${movie.rating}</div>` : ''}
+                    ${movie.notes ? `<p>${movie.notes}</p>` : ''}
 				</div>
 			`;
 
