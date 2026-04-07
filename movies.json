@@ -1557,17 +1557,16 @@
       "date": "2026-04-20",
       "movies": [
         {
-          "title": "Training Day",
-          "year": "2001-10-05",
-          "poster": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+          "title": "Portrait of a Lady on Fire",
+          "year": "2019-09-06",
+          "poster": "https://image.tmdb.org/t/p/w500/2LquGwEhbg3soxSCs9VNyh5VJd9.jpg",
           "genres": [
-            "Action",
-            "Crime",
-            "Drama"
+            "Drama",
+            "Romance"
           ],
-          "overview": "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears.",
+          "overview": "On an isolated island in Brittany at the end of the eighteenth century, a female painter is obliged to paint a wedding portrait of a young woman.",
           "rating": null,
-          "notes": null
+          "notes": "Levana's Pick"
         }
       ]
     },
