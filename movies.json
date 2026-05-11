@@ -1,12 +1,5 @@
 {
-  "announcements": [
-    {
-      "title": "Out of Town Notice",
-      "message": "April 27th movie night has been cancelled as hosts will be out of town.",
-      "expires": "2026-04-29",
-      "icon": "block"
-    }
-  ],
+  "announcements": [],
   "schedule": [
     {
       "date": "2023-12-18",
@@ -1592,24 +1585,6 @@
             "Family"
           ],
           "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother. As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
-          "rating": null,
-          "notes": null
-        }
-      ]
-    },
-    {
-      "date": "2026-05-11",
-      "movies": [
-        {
-          "title": "The Walk",
-          "year": "2015-09-30",
-          "poster": "https://image.tmdb.org/t/p/w500/lSoPmBq0kaU9jwZNbpEVwua8J3s.jpg",
-          "genres": [
-            "History",
-            "Drama",
-            "Adventure"
-          ],
-          "overview": "The story of French high-wire artist Philippe Petit's attempt to cross the Twin Towers of the World Trade Center in 1974.",
           "rating": null,
           "notes": null
         }
