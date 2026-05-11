@@ -1,6 +1,6 @@
 ---
 title: "Cinema Hiatus"
-message: "Cinema Nickie will be on a hiatus for the next few months. All planned showings have been cancelled and will resume in the near future. Contact host for inquiries."
+message: "Cinema Nickie will be on hiatus for the next few months. All planned showings have been cancelled and will resume in the near future. Contact host for inquiries."
 expires: 2026-12-01
 icon: cone
 ---
